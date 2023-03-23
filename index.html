@@ -36,25 +36,30 @@
 
       <div class="profile">
         <img src="assets/img/profile-img.png" alt="" class="img-fluid rounded-circle">
-        <h1 class="text-light"><a href="index.html">Nitish Mandal</a></h1>
+        <h1 id="user-detail-name" class="text-light"><a href="index.html">Nitish Mandal</a></h1>
         <div class="social-links mt-3 text-center">
-          <a href="mailto:neelgiri65@gmail.com" target="_blank" class="gmail"><i class="icofont-email"></i></a>
-          <a href="https://linkedin.com/in/thenitishmandal" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-          <a href="https://github.com/nitishmandal01" target="_blank" class="github"><i class="bx bxl-github"></i></a>
+          <a href="mailto:neelgiri65@gmail.com" target="_blank" id="contact-email" class="gmail"><i class="icofont-email"></i></a>
+          <a href="https://linkedin.com/in/thenitishmandal" target="_blank" id="contact-linkedin" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://github.com/nitishmandal01" target="_blank" id="contact-github" class="github"><i class="bx bxl-github"></i></a>
           <a href="https://twitter.com/thenitishmandal" target="_blank" class="twitter"><i class="bx bxl-twitter"></i></a>
-          <a href="https://wa.me/+919718299580" target="_blank" class="whatsapp"><i class="bx bxl-whatsapp"></i></a>
+          <a href="https://wa.me/+919718299580" target="_blank" id="contact-phone" class="whatsapp"><i class="bx bxl-whatsapp"></i></a>
         
         </div> 
       </div>
 
       <nav id="nav-menu" class="nav-menu">
         <ul>
-          <li class="active"><a href="#home"><i class="nav-link-home bx bx-home"></i> <span>Home</span></a></li>
-          <li><a href="#about"><i class="nav-link-about bx bx-user"></i> <span>About</span></a></li>
+          <li class="active"><a href="#home"><i class="nav-link home bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="#about"><i class="nav-link about bx bx-user"></i> <span>About</span></a></li>
           <li><a href="#resume"><i class="bx bx-time"></i> <span>Timeline</span></a></li>
-          <li><a href="#projects"><i class="nav-link-projects bx bx-book-content"></i> Portfolio</a></li>
-          <li><a href="#skills"><i class="nav-link-resume bx bx-server"></i> Skills</a></li>
+          <li><a href="#projects"><i class="nav-link projects bx bx-book-content"></i> Portfolio</a></li>
+          <li><a href="#skills"><i class="nav-link skills bx bx-server"></i> Skills</a></li>
           <li><a href="#contact"><i class="nav-link-contact bx bx-envelope"></i>Contact</a></li>
+          <li>
+            <a href="/assets/resources/Resume/Nitish_Mandal_Resume.pdf" download="Nitish_Mandal_Resume" target="_blank"
+            onclick="window.open(`https://drive.google.com/file/d/1qfsVp5xwwTiOXQ0CqiirRC3-QNe-jOhk/view?usp=sharing`)"
+              class="nav-link resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a>
+          </li>
         </ul>
       </nav><!-- .nav-menu -->
       <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
@@ -73,7 +78,7 @@
   <main id="main">
 
     <!-- ======= About Section ======= -->
-    <section id="about" class="about_section">
+    <section id="about" class="about section">
       <div class="container">
 
         <div class="section-title">
@@ -82,16 +87,14 @@
             HELLO !
           </H5>
           <H5>
-            <H3> I'm
+            <H3 id="user-detail-name"> I'm
               <span style="color: #173b6c; font-weight: 800;">
-                NITISH KUMAR MANDAL
+                 NITISH KUMAR MANDAL
               </span>
             </H3>
           </H5>
           <hr>
-          <p>I enjoy creating things that create impact on someone's life. I'm a passionate Developer, with strong administrative & communication skills, good attention to detail & the ability to write efficient code.</p>
-          <hr>
-          <p>I'm open to Job opportunities. If you think my skills are relevant to your job requirements then do contact me.</p>
+          <p id="user-detail-intro" >I'm open to Job opportunities. If you think my skills are relevant to your job requirements then do contact me.</p>
         </div>
 
         <div class="row">
@@ -349,67 +352,68 @@
     <section id="skills" class="services" data-aos="fade-up">
       <div class="container">
         <div class="section-title">
-          <h2>Skills</h2>
+          <h2>Technical Skills</h2>
           <h4 style="color: #173b6c; font-weight: 800; text-align: center;">HOW I DO WHAT I DO !</h4>
         </div>
 
         <div class="row">
 
 
-          <div class="col-lg-4 col-md-6 icon-box d-flex justify-content-center" data-aos="fade-up" data-aos-delay="0">
-            <div class="icon"></i> <img src="/assets/img/Skills/Java.svg" alt="">
+          <div class="skills-card col-lg-4 col-md-6 icon-box d-flex justify-content-center " data-aos="fade-up" data-aos-delay="0">
+            <div class="icon"></i> <img class="skills-card-img skills-card-name" src="/assets/img/Skills/Java.svg" alt="">
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 icon-box d-flex justify-content-center" data-aos="fade-up" data-aos-delay="50">
-            <div class="icon"></i> <img src="/assets/img/Skills/HTML.svg" alt=""></div>
-          </div>
-          <div class="col-lg-4 col-md-6 d-flex justify-content-center icon-box" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon"><img src="/assets/img/Skills/CSS.svg" alt=""></i></div>
+          <div class="skills-card col-lg-4 col-md-6 icon-box d-flex justify-content-center" data-aos="fade-up" data-aos-delay="50">
+            <div class="icon"></i> <img class="skills-card-img skills-card-name" src="/assets/img/Skills/HTML.svg" alt=""></div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex justify-content-center icon-box" data-aos="fade-up" data-aos-delay="150">
-            <div class="icon"><img src="/assets/img/Skills/Bootstrap.svg" alt=""></i></div>
+          <div class="skills-card col-lg-4 col-md-6 d-flex justify-content-center icon-box" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon"><img class="skills-card-img skills-card-name" src="/assets/img/Skills/CSS.svg" alt=""></i></div>
           </div>
 
-
-          <div class="col-lg-4 col-md-6 d-flex justify-content-center icon-box" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon"><img src="/assets/img/Skills/Tailwind.svg" alt=""></i></div>
+          <div class="skills-card col-lg-4 col-md-6 d-flex justify-content-center icon-box" data-aos="fade-up" data-aos-delay="150">
+            <div class="icon"><img class="skills-card-img skills-card-name" src="/assets/img/Skills/Bootstrap.svg" alt=""></i></div>
           </div>
 
 
-          <div class="col-lg-4 col-md-6 d-flex justify-content-center icon-box" data-aos="fade-up" data-aos-delay="250">
-            <div class="icon"><img src="/assets/img/Skills/JS.svg" alt=""></i></div>
+          <div class="skills-card col-lg-4 col-md-6 d-flex justify-content-center icon-box" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon"><img class ="skills-card-img skills-card-name" src="/assets/img/Skills/Tailwind.svg" alt=""></i></div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex justify-content-center icon-box" data-aos="fade-up" data-aos-delay="300">
-            <div class="icon"><img src="/assets/img/Skills/Sprintools.svg" alt=""></i></div>
+
+          <div class="skills-card col-lg-4 col-md-6 d-flex justify-content-center icon-box" data-aos="fade-up" data-aos-delay="250">
+            <div class="icon"><img class="skills-card-img skills-card-name" src="/assets/img/Skills/JS.svg" alt=""></i></div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex justify-content-center icon-box" data-aos="fade-up" data-aos-delay="350">
-            <div class="icon"><img src="/assets/img/Skills/Hibernate.svg" alt=""></i></div>
+          <div class="skills-card col-lg-4 col-md-6 d-flex justify-content-center icon-box" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon"><img class="skills-card-img skills-card-name" src="/assets/img/Skills/Sprintools.svg" alt=""></i></div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex justify-content-center icon-box" data-aos="fade-up" data-aos-delay="350">
-            <div class="icon"><img src="/assets/img/Skills/Maven.svg" alt=""></i></div>
+          <div class="skills-card col-lg-4 col-md-6 d-flex justify-content-center icon-box" data-aos="fade-up" data-aos-delay="350">
+            <div class="icon"><img class="skills-card-img skills-card-name" src="/assets/img/Skills/Hibernate.svg" alt=""></i></div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex justify-content-center icon-box" data-aos="fade-up" data-aos-delay="350">
-            <div class="icon"><img src="/assets/img/Skills/AWS.svg" alt=""></i></div>
+          <div class="skills-card col-lg-4 col-md-6 d-flex justify-content-center icon-box" data-aos="fade-up" data-aos-delay="350">
+            <div class="icon"><img class="skills-card-img skills-card-name" src="/assets/img/Skills/Maven.svg" alt=""></i></div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex justify-content-center icon-box" data-aos="fade-up" data-aos-delay="400">
-            <div class="icon"><img src="/assets/img/Skills/MySql.svg" alt=""></i></div>
+          <div class="skills-card col-lg-4 col-md-6 d-flex justify-content-center icon-box" data-aos="fade-up" data-aos-delay="350">
+            <div class="icon"><img class="skills-card-img skills-card-name" src="/assets/img/Skills/AWS.svg" alt=""></i></div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex justify-content-center icon-box" data-aos="fade-up" data-aos-delay="450">
-            <div class="icon"><img class="rdbms" src="/assets/img/Skills/RDBMS.png" alt=""></i></div>
+          <div class="skills-card col-lg-4 col-md-6 d-flex justify-content-center icon-box" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon"><img class="skills-card-img skills-card-name" src="/assets/img/Skills/MySql.svg" alt=""></i></div>
+          </div>
+
+          <div class="skills-card col-lg-4 col-md-6 d-flex justify-content-center icon-box" data-aos="fade-up" data-aos-delay="450">
+            <div class="icon"><img class="rdbms skills-card-img skills-card-name" src="/assets/img/Skills/RDBMS.png" alt=""></i></div>
           </div>
 
         </div>
       </div>
     </section>
-    <!-- End Services Section -->
+    <!-- End Skills Section -->
         <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
       <div class="container">
@@ -508,18 +512,6 @@
     <!-- End Contact Section -->
 
   </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>NitishMandal</span></strong>
-      </div>
-      <div class="credits">
-       Designed by <a href="#">Nitish Kumar Mandal</a>
-      </div>
-    </div>
-  </footer><!-- End  Footer -->
 
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
