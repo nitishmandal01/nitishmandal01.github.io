@@ -21,7 +21,7 @@ html {
 /* Sticky */
 
 body {
-  background: linear-gradient(180deg, rgb(0, 0, 0),rgb(2, 8, 61),rgb(2, 61, 71), rgb(2, 65, 5),rgb(18, 11, 48));;
+  background: linear-gradient(200deg, rgb(0, 0, 0),rgb(2, 8, 61),rgb(90, 3, 61), rgb(2, 65, 5),rgb(18, 11, 48));;
   color: white;
 }
 #resume,
@@ -122,9 +122,12 @@ nav ul li a:hover::after {
   flex-basis: 60%;
 }
 .sub-title {
-  color: #fff;
+  color: #ffffff;
   font-size: 60px;
   font-weight: 600;
+}
+#user-detail-intro{
+  color: #cfcfcb;
 }
  #projects {
   padding-top: 60px;
