@@ -1,3 +1,4 @@
+
 # My Portfolio
 
 Welcome to My Portfolio Website, where you can explore my skills, projects, and aspirations as a budding developer.
@@ -14,7 +15,7 @@ Hello! I'm Nitish, an enthusiastic and aspiring developer with a strong passion 
 - **Version Control:** Basic understanding of Git and its role in collaborative development.
 
 
-## Contact Me
+## Contact Me 
 
 Thank you for visiting my portfolio! If you'd like to connect, you can reach me via email at neelgiri65@gmail.com or find me on [[LinkedIn]](https://www.linkedin.com/in/thenitishmandal/). I'm open to learning opportunities, collaboration, and connecting with fellow enthusiasts.
 
