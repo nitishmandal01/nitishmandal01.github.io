@@ -14,7 +14,6 @@ Hello! I'm Nitish, an enthusiastic and aspiring developer with a strong passion 
 - **Problem Solving:** Strong analytical skills for breaking down and solving complex problems.
 - **Version Control:** Basic understanding of Git and its role in collaborative development.
 
-
 ## Contact Me 
 
 Thank you for visiting my portfolio! If you'd like to connect, you can reach me via email at neelgiri65@gmail.com or find me on [[LinkedIn]](https://www.linkedin.com/in/thenitishmandal/). I'm open to learning opportunities, collaboration, and connecting with fellow enthusiasts.
