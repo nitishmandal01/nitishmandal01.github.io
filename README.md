@@ -18,4 +18,4 @@ Hello! I'm Nitish, an enthusiastic and aspiring developer with a strong passion 
 
 Thank you for visiting my portfolio! If you'd like to connect, you can reach me via email at neelgiri65@gmail.com or find me on [[LinkedIn]](https://www.linkedin.com/in/thenitishmandal/). I'm open to learning opportunities, collaboration, and connecting with fellow enthusiasts.
 
-As a fresh developer, this portfolio represents my enthusiasm, skills, and potential. Feel free to explore and connect if you're interested in sharing experiences or working together. Let's connect
+As a fresh developer, this portfolio represents my enthusiasm, skills, and potential. Feel free to explore and connect if you're interested in sharing experiences or working together.Let's connect
