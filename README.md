@@ -1,20 +1,19 @@
+&nbsp;
 
-# My Portfolio
-Welcome to My Portfolio Website, where you can explore my skills, projects, and aspirations as a budding developer.
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com/?lines=Aman Chaudhary + | + Portfolio;&%20Code&center=true&width=700&height=50&weight=800&size=35&duration=2000&pause=2000">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+</p> 
 
-## About Me
 
-Hello! I'm Nitish, an enthusiastic and aspiring developer with a strong passion for technology and problem-solving. As a recent graduate of Full Stack Java Developer, from Masai School, I am eager to contribute my knowledge and learn from real-world projects.
+<p align=center >My portfolio website encompasses user interface elements and dynamic animations,<br>while also being fully responsive across various devices.</p>
+<p align=center>
+    <a href="https://amanchaudhary214.github.io/" target="blank">🔗 Visit Portfolio ! </a>
+</p>
 
-## Skills
+<br>
+<br>
 
-- **Programming Languages:** Proficient in Java, JavaScript, and Python with a focus on Java.
-- **Web Development:** Familiar with backend technologies - Java, SpringBoot, Hibernate, MySQL, Maven, and in front-end technologies like HTML, CSS, and JavaScript.
-- **Problem Solving:** Strong analytical skills for breaking down and solving complex problems.
-- **Version Control:** Basic understanding of Git and its role in collaborative development.
+Thanks [Bedimcode](https://github.com/bedimcode) for the UI inspiration.
 
-## Contact Me 
-
-Thank you for visiting my portfolio! If you'd like to connect, you can reach me via email at neelgiri65@gmail.com or find me on [[LinkedIn]](https://www.linkedin.com/in/thenitishmandal/). I'm open to learning opportunities, collaboration, and connecting with fellow enthusiasts.
-
-As a fresh developer, this portfolio represents my enthusiasm, skills, and potential. Feel free to explore and connect if you're interested in sharing experiences or working together.Let's connect
+Thanks [Ionică Bizău](https://github.com/IonicaBizau) for the GitHub calendar.
