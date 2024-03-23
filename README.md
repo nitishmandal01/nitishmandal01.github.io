@@ -1,6 +1,5 @@
 
 # My Portfolio
-
 Welcome to My Portfolio Website, where you can explore my skills, projects, and aspirations as a budding developer.
 
 ## About Me
